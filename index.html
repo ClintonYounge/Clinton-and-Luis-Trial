@@ -22,7 +22,18 @@
     <form id="survey-form">
       Please enter your Name<label id="name-label" for="name"><input id="name" type="text" placeholder="e.g. Clinton"></label>
       Please enter your Email<label id="email-label" for="email"><input id="email" type="email" placeholder="e.g. soybonito@gmail.com" required></label>
-      Please enter you Number<label id="number-label" for="number"><input id="number" type="number" placeholder="3502139847" min="10" max="10"></label>
+      Please enter you Number<label id="number-label" for="number"><input id="number" type="number" placeholder="3502139847" minlength="10" maxlength="10"></label>
+
+      <select id="dropdown">
+        <option>First option</option>
+        <option>Second option</option>
+      </select>
+
+      <label><input type="radio" name="options">Option 1</label>
+      <label><input type="radio" name="options">Option 2</label>
+
+      <label><input type="checkbox" value="option">Option 1</label>
+      <label><input type="checkbox" value="option">Option 2</label>
     </form>
 
   </body>
