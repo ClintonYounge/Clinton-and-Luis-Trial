@@ -10,9 +10,9 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
 
-    <title>
-      <h1 id="title"></h1>
-    </title>
+  <h1 id="title">Title</h1>
+   
+        
     <p id="description">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus <br>
       dolores laudantium ad molestias velit debitis ab repudiandae voluptate <br>
@@ -20,24 +20,25 @@
       earum!<br>
     </p>
     <form id="survey-form">
-      Please enter your Name<label id="name-label" for="name"><input id="name" type="text" placeholder="e.g. Clinton"></label><br>
+      Please enter your Name<label id="name-label" for="name"><input id="name" type="text" placeholder="e.g. Clinton" required></label><br>
       Please enter your Email<label id="email-label" for="email"><input id="email" type="email" placeholder="e.g. soybonito@gmail.com" required></label><br>
-      Please enter you Number<label id="number-label" for="number"><input id="number" type="number" placeholder="3502139847" minlength="10" maxlength="10"></label><br>
+      Please enter you Number<label id="number-label" for="number"><input id="number" type="number" placeholder="3502139847" min=0; max= 10;></label><br>
 
       <select id="dropdown">
         <option>First option</option>
         <option>Second option</option>
-      </select>
+      </select><br>
 
       <label><input type="radio" name="options">Option 1</label>
-      <label><input type="radio" name="options">Option 2</label>
+      <label><input type="radio" name="options">Option 2</label><br>
 
       <label><input type="checkbox" value="option">Option 1</label>
-      <label><input type="checkbox" value="option">Option 2</label>
+      <label><input type="checkbox" value="option">Option 2</label><br>
 
-      Please enter any additional comments here:<textarea></textarea>
+      Please enter any additional comments here:<textarea></textarea><br>
+      <br>
 
-      <submit id="submit"></submit>
+      <button type="submit">Submit Here</button>
     </form>
 
   </body>
