@@ -20,17 +20,20 @@
       earum!<br>
     </p>
     <form id="survey-form">
-      Please enter your Name<label id="name-label" for="name"><input id="name" type="text" placeholder="e.g. Clinton" required></label><br>
-      Please enter your Email<label id="email-label" for="email"><input id="email" type="email" placeholder="e.g. soybonito@gmail.com" required></label><br>
-      Please enter you Number<label id="number-label" for="number"><input id="number" type="number" placeholder="3502139847" min=0; max= 10;></label><br>
+      <label id="name-label" for="name">Please enter your Name<input id="name" type="text" placeholder="e.g. Clinton" required></label><br>
+      <label id="email-label" for="email">Please enter your Email<input id="email" type="email" placeholder="e.g. soybonito@gmail.com" required></label><br>
+      <label id="number-label" for="number">Please enter you Number<input id="number" type="number" placeholder="3502139847" min=0; max= 10;></label><br>
 
-      <select id="dropdown">
-        <option>First option</option>
-        <option>Second option</option>
-      </select><br>
+      
+        <select id="dropdown">
+          <option>First option</option>
+          <option>Second option</option>
+        </select>
+      
+      <br>
 
-      <label><input type="radio" name="options">Option 1</label>
-      <label><input type="radio" name="options">Option 2</label><br>
+      <label><input type="radio" name="options" value="option 1">Option 1</label>
+      <label><input type="radio" name="options" value="option 2">Option 2</label><br>
 
       <label><input type="checkbox" value="option">Option 1</label>
       <label><input type="checkbox" value="option">Option 2</label><br>
@@ -38,7 +41,7 @@
       Please enter any additional comments here:<textarea></textarea><br>
       <br>
 
-      <button type="submit">Submit Here</button>
+      <button id="submit" type="submit">Submit Here</button>
     </form>
 
   </body>
